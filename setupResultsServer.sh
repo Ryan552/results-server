@@ -38,7 +38,7 @@ sudo apt update
 sudo apt install make
 
 #clone graphite/graphana image and start
-git clone https://github.com/Ryan552/results_server.git
+git clone https://github.com/Ryan552/results-server.git
 
 cd results_server/
 
