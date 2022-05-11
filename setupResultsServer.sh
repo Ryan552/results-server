@@ -1,4 +1,5 @@
 #setup a results-server VM with ubuntu OS running and run this script to setup application
+
 #install docker
 
 sudo apt update
@@ -15,7 +16,6 @@ apt-cache policy docker-ce
 
 sudo apt install docker-ce
 
-#sudo systemctl status docker
 
 #install docker compose
 
@@ -37,9 +37,8 @@ sudo apt update
 
 sudo apt install make
 
-#clone graphite/graphana image and start
-git clone https://github.com/Ryan552/results-server.git
+#enter results-server folder
+cd results-server/
 
-cd results_server/
-
+#start container using's Kamon.io's make command
 make up
