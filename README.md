@@ -1,3 +1,23 @@
+CloudProphecy Implementation
+---------------------------------------------
+
+This image, forked from the Kamon.io docker-graphana-graphite image is designer to be run on Google Compute Engine.
+
+How to use this repo on google compute engine:
+- Start a VM with Ubuntu OS
+- SSH to VM
+- Clone this repository to the VM
+- run: Bash results-server/setupResultsServer.sh
+
+This will start the container and run Graphite and Grafana
+
+It is also recommended to modify the storage-schemas.conf file before sending data to Graphite.
+This can be found in the container at opt/Graphite/conf/storage-schemas.conf.
+Run "make shell" in the results-server to enter the container's shell
+
+see below README from original creators of application for more details...
+
+
 StatsD + Graphite + Grafana 4 + Kamon Dashboards
 ---------------------------------------------
 
