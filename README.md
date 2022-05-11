@@ -1,7 +1,7 @@
 CloudProphecy Implementation
 ---------------------------------------------
 
-This image, forked from the Kamon.io docker-graphana-graphite image is designer to be run on Google Compute Engine.
+This image, forked from the Kamon.io docker-graphana-graphite image is designed to be run on Google Compute Engine.
 
 How to use this repo on google compute engine:
 - Start a VM with Ubuntu OS
